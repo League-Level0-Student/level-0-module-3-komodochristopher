@@ -19,7 +19,13 @@ public class RobotColorChooser {
 if(color.equals("red")) {
 bob.setPenColor(Color.red);
 }
-        //6. If the user doesn’t enter anything, choose a random color
+if(color.equals("blue")) {
+bob.setPenColor(Color.blue);
+}  
+if(color.equals("green")) {
+bob.setPenColor(Color.green);
+}     
+//6. If the user doesn’t enter anything, choose a random color
 else {
 	bob.setRandomPenColor();
 }
